@@ -1,0 +1,300 @@
+Microsoft Windows [Version 10.0.19041.508]
+(c) 2020 Microsoft Corporation. All rights reserved.
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2\src\com\capgemini>cd..
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2\src\com>cd..
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2\src>cd..
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git status
+On branch usecase1
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   bin/com/capgemini/EmpWageBuilder.class
+        modified:   src/com/capgemini/EmpWageBuilder.java
+
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git status
+On branch usecase1
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   bin/com/capgemini/EmpWageBuilder.class
+        modified:   src/com/capgemini/EmpWageBuilder.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   bin/com/capgemini/EmpWageBuilder.class
+        modified:   src/com/capgemini/EmpWageBuilder.java
+
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git ad .
+git: 'ad' is not a git command. See 'git --help'.
+
+The most similar commands are
+        add
+        am
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git add .
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git commit -m "usecase1 -
+ Check employee is present or not"
+On branch usecase1
+nothing to commit, working tree clean
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git push origin usecase1
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (10/10), 1.31 KiB | 671.00 KiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'usecase1' on GitHub by visiting:
+remote:      https://github.com/ibalram/EmployeeWageBuilder2/pull/new/usecase1
+remote:
+To https://github.com/ibalram/EmployeeWageBuilder2.git
+ * [new branch]      usecase1 -> usecase1
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git switch usecase1
+Already on 'usecase1'
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git pull origin master
+From https://github.com/ibalram/EmployeeWageBuilder2
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git commit -m "added usec
+ase1 - Check employee is present or not"
+On branch usecase1
+nothing to commit, working tree clean
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git status
+On branch usecase1
+nothing to commit, working tree clean
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git add .
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git status
+On branch usecase1
+nothing to commit, working tree clean
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git commit -m "added usec
+ase1 - Check employee is present or not"
+On branch usecase1
+nothing to commit, working tree clean
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git push origin usecase1
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (10/10), 1.31 KiB | 671.00 KiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'usecase1' on GitHub by visiting:
+remote:      https://github.com/ibalram/EmployeeWageBuilder2/pull/new/usecase1
+remote:
+To https://github.com/ibalram/EmployeeWageBuilder2.git
+ * [new branch]      usecase1 -> usecase1
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git add .
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git status
+On branch usecase1
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   bin/com/capgemini/EmpWageBuilder.class
+        modified:   src/com/capgemini/EmpWageBuilder.java
+
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git commit -m "added usec
+ase1 - Check employee is present or not"
+[usecase1 37a51dc] added usecase1 - Check employee is present or not
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git push origin usecase1
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (10/10), 687 bytes | 687.00 KiB/s, done.
+Total 10 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/ibalram/EmployeeWageBuilder2.git
+   8946fdd..37a51dc  usecase1 -> usecase1
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git switch master
+Switched to branch 'master'
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git merge usecase1
+Updating b62e7cb..37a51dc
+Fast-forward
+ bin/com/capgemini/EmpWageBuilder.class | Bin 569 -> 812 bytes
+ src/com/capgemini/EmpWageBuilder.java  |  13 ++++++++++++-
+ 2 files changed, 12 insertions(+), 1 deletion(-)
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git push origin master
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/ibalram/EmployeeWageBuilder2.git
+   b62e7cb..37a51dc  master -> master
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git checkout -b usecase2
+Switched to a new branch 'usecase2'
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git add .
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git status
+On branch usecase2
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   bin/com/capgemini/EmpWageBuilder.class
+        modified:   src/com/capgemini/EmpWageBuilder.java
+
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git commit -m "added usec
+ase2 - Calculate daily employee wage"
+[usecase2 3df49f6] added usecase2 - Calculate daily employee wage
+ 2 files changed, 21 insertions(+), 20 deletions(-)
+ rewrite bin/com/capgemini/EmpWageBuilder.class (65%)
+ rewrite src/com/capgemini/EmpWageBuilder.java (64%)
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git push origin usecase2
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (10/10), 1.51 KiB | 773.00 KiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'usecase2' on GitHub by visiting:
+remote:      https://github.com/ibalram/EmployeeWageBuilder2/pull/new/usecase2
+remote:
+To https://github.com/ibalram/EmployeeWageBuilder2.git
+ * [new branch]      usecase2 -> usecase2
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git checkout -b usecase3
+Switched to a new branch 'usecase3'
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git add .
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git status
+On branch usecase3
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   bin/com/capgemini/EmpWageBuilder.class
+        modified:   src/com/capgemini/EmpWageBuilder.java
+
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git commit -m "added usec
+ase3 - add part time employee and wage"
+[usecase3 f1eda21] added usecase3 - add part time employee and wage
+ 2 files changed, 12 insertions(+), 7 deletions(-)
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git push origin usecase3
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (10/10), 1.19 KiB | 610.00 KiB/s, done.
+Total 10 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'usecase3' on GitHub by visiting:
+remote:      https://github.com/ibalram/EmployeeWageBuilder2/pull/new/usecase3
+remote:
+To https://github.com/ibalram/EmployeeWageBuilder2.git
+ * [new branch]      usecase3 -> usecase3
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git checkout -b usecase4
+Switched to a new branch 'usecase4'
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git add .
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git status
+On branch usecase4
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   bin/com/capgemini/EmpWageBuilder.class
+        modified:   src/com/capgemini/EmpWageBuilder.java
+
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git commit -m "added usec
+ase4 - solving using case statement"
+[usecase4 a2de66a] added usecase4 - solving using case statement
+ 2 files changed, 17 insertions(+), 10 deletions(-)
+ rewrite bin/com/capgemini/EmpWageBuilder.class (88%)
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git push origin usecase4
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (10/10), 1.58 KiB | 811.00 KiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'usecase4' on GitHub by visiting:
+remote:      https://github.com/ibalram/EmployeeWageBuilder2/pull/new/usecase4
+remote:
+To https://github.com/ibalram/EmployeeWageBuilder2.git
+ * [new branch]      usecase4 -> usecase4
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git checkout -b usecase5
+Switched to a new branch 'usecase5'
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git add .
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git commit -m "added usec
+ase5 - calc wages for a month assuming 20 working days in a month"
+[usecase5 1aad065] added usecase5 - calc wages for a month assuming 20 working d
+ays in a month
+ 2 files changed, 20 insertions(+), 14 deletions(-)
+ rewrite bin/com/capgemini/EmpWageBuilder.class (87%)
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git push origin usecase5
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (10/10), 1.69 KiB | 577.00 KiB/s, done.
+Total 10 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'usecase5' on GitHub by visiting:
+remote:      https://github.com/ibalram/EmployeeWageBuilder2/pull/new/usecase5
+remote:
+To https://github.com/ibalram/EmployeeWageBuilder2.git
+ * [new branch]      usecase5 -> usecase5
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git checkout -b usecase6
+Switched to a new branch 'usecase6'
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git add .
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git commit -m "added usec
+ase6 - cacluate wages till total working hours or max days"
+[usecase6 bd3e1ed] added usecase6 - cacluate wages till total working hours or m
+ax days
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>git push origin usecase6
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (10/10), 846 bytes | 423.00 KiB/s, done.
+Total 10 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+remote:
+remote: Create a pull request for 'usecase6' on GitHub by visiting:
+remote:      https://github.com/ibalram/EmployeeWageBuilder2/pull/new/usecase6
+remote:
+To https://github.com/ibalram/EmployeeWageBuilder2.git
+ * [new branch]      usecase6 -> usecase6
+
+D:\capgemini_fullstack_fellowship\EmployeeWageBuilder2>
