@@ -1,8 +1,9 @@
 package com.capgemini;
 
 
-// usecase5
-// Calculating wages for a month assuming 20 working days in a month
+// usecase6
+// Calculating wages till a condition of total working hours of 100 
+// or max days of 20 is reached for a month
 
 public class EmpWageBuilder {
 
